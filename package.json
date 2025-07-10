@@ -4,7 +4,7 @@
   "description": "A bot to grant discord users temporary access to roles.",
   "main": "run.js",
   "engines": {
-    "node": "16.X"
+    "node": "18.X"
   },
   "type": "module",
   "scripts": {
