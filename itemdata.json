@@ -1,0 +1,62 @@
+{
+  "modsawStandard": {
+    "image": "https://lancasterarchery.com/cdn/shop/files/1042314_1.jpg.jpg",
+    "idSuffix": "-modsaw-standard",
+    "name": "modsaw Standard"
+  },
+  "modsawDeluxe": {
+    "image": "https://lancasterarchery.com/cdn/shop/files/1042315_6_1000x.jpg",
+    "idSuffix": "-modsaw-deluxe",
+    "name": "modsaw Deluxe"
+  },
+  "lcaSaw": {
+    "image": "https://lancasterarchery.com/cdn/shop/files/6910067.jpg",
+    "idSuffix": "-lca-saw",
+    "name": "LCA Saw"
+  },
+  "carbonExpress": {
+    "image": "https://lancasterarchery.com/cdn/shop/files/1031501.jpg",
+    "idSuffix": "-carbon-express",
+    "name": "Carbon Express"
+  },
+  "xSpot": {
+    "image": "https://lancasterarchery.com/cdn/shop/files/6820022_cddc7702-ab3c-4ab5-858d-4e0beaa08e82.jpg",
+    "idSuffix": "-x-spot",
+    "name": "X Spot"
+  },
+  "xSpotMini": {
+    "image": "https://lancasterarchery.com/cdn/shop/files/6820024_8e16141c-cac7-4a62-a001-90ba8b4f6431.jpg",
+    "idSuffix": "-x-spot-mini",
+    "name": "X Spot Mini"
+  },
+  "ezGreen": {
+    "image": "https://lancasterarchery.com/cdn/shop/files/6910007_2023.jpg",
+    "idSuffix": "-lca-ez-green",
+    "name": "EZ Green Press"
+  },
+  "avalonSpinner": {
+    "image": "https://lancasterarchery.com/cdn/shop/products/1031651.jpg",
+    "idSuffix": "-avalon-spinner",
+    "name": "Avalon Spinner"
+  },
+  "pineRidge": {
+    "image": "https://lancasterarchery.com/cdn/shop/files/3450004.jpg",
+    "idSuffix": "-pine-ridge",
+    "name": "Pine Ridge"
+  },
+  "squareUp": {
+    "image": "https://lancasterarchery.com/cdn/shop/files/1039419.jpg",
+    "idSuffix": "-square-up",
+    "name": "LCA SquareUp"
+  },
+  "ompSpin": {
+    "image": "https://lancasterarchery.com/cdn/shop/files/1034010.jpg",
+    "idSuffix": "-omp-spin",
+    "name": "OMP Spinner"
+  },
+  "g5Asd": {
+    "image": "https://lancasterarchery.com/cdn/shop/files/2240177.jpg",
+    "idSuffix": "-g5-square",
+    "name": "G5 ASD"
+  }
+}
