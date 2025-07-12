@@ -14,7 +14,9 @@ export const getLancasterInventory = async (sku) => {
     ],
   });
   let variants = JSON.parse(res.data).variants;
-  return variants.length === 1 ? variants[0].inventory_quantity : variants.map(v => v.inventory_quantity);;
+  return variants.length === 1
+    ? variants[0].inventory_quantity
+    : variants.map((v) => v.inventory_quantity);
 };
 
 export const getLancasterItemData = (db) => {
@@ -38,6 +40,14 @@ export const getLancasterItemData = (db) => {
       change: latest["lancaster-deluxe"] - previous["lancaster-deluxe"],
     },
     {
+      image:
+        "https://lancasterarchery.com/cdn/shop/files/1043079_1000x.jpg?v=1751468058",
+      id: "lancaster-spinex",
+      name: "modsaw SpinEX",
+      inventory: latest["lancaster-spinex"],
+      change: latest["lancaster-spinex"] - previous["lancaster-spinex"],
+    },
+    {
       image: "https://lancasterarchery.com/cdn/shop/files/6910067.jpg",
       id: "lancaster-lca-saw",
       name: "LCA Saw",
@@ -45,7 +55,8 @@ export const getLancasterItemData = (db) => {
       change: latest["lancaster-lca-saw"] - previous["lancaster-lca-saw"],
     },
     {
-      image: "https://lancasterarchery.com/cdn/shop/files/1038795_1000x.jpg?v=1713971032",
+      image:
+        "https://lancasterarchery.com/cdn/shop/files/1038795_1000x.jpg?v=1713971032",
       id: "lancaster-lca-scale",
       name: "LCA Scale",
       inventory: latest["lancaster-lca-scale"],
@@ -129,11 +140,14 @@ export const getLancasterItemData = (db) => {
       change: latest["lancaster-g5-square"] - previous["lancaster-g5-square"],
     },
     {
-      image: "https://lancasterarchery.com/cdn/shop/files/1430002_right-clamp_1000x.jpg?v=1740601717",
+      image:
+        "https://lancasterarchery.com/cdn/shop/files/1430002_right-clamp_1000x.jpg?v=1740601717",
       id: "lancaster-bitz",
       name: "Bitz",
       inventory: latest["lancaster-bitz"],
-      change: latest["lancaster-bitz"].map((v, iter) => v - previous["lancaster-bitz"][iter]),
+      change: latest["lancaster-bitz"].map(
+        (v, iter) => v - previous["lancaster-bitz"][iter]
+      ),
     },
   ];
 };

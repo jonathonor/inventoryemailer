@@ -3,7 +3,7 @@ import { join, dirname } from "path";
 import { JSONFilePreset } from "lowdb/node";
 import { fileURLToPath } from "url";
 import nodemailer from "nodemailer";
-import dotenv from 'dotenv';
+import dotenv from "dotenv";
 dotenv.config();
 
 const require = createRequire(import.meta.url);
@@ -89,7 +89,7 @@ let getRow = (item) => {
           </span>
         </span>`;
   } else {
-    console.log(item.change)
+    console.log(item.change);
     return `<span style="color: #979cb0;
       font-weight: 600;
       font-size: 18px;
@@ -108,7 +108,7 @@ let getRow = (item) => {
                   ${isNegative(i) ? "" : "+"}${i}
                   </span>
                 `;
-    })}</span>`;
+            })}</span>`;
   }
 };
 
@@ -121,9 +121,9 @@ let isNegative = (number) => {
 };
 
 let sendEmail = async () => {
-  console.log('Email user:', process.env.TITAN_EMAIL);
-  console.log('Email pass defined:', !!process.env.TITAN_PASSWORD);
-  
+  console.log("Email user:", process.env.TITAN_EMAIL);
+  console.log("Email pass defined:", !!process.env.TITAN_PASSWORD);
+
   const transporter = nodemailer.createTransport({
     host: "smtp.titan.email",
     port: 587,
@@ -186,7 +186,7 @@ let sendEmail = async () => {
 schedule.scheduleJob("0 15 1 * *", async () => {
   sendMonthlyEmail(db.data.inventory);
 });
-schedule.scheduleJob("0 15 * * *", async () => {
+schedule.scheduleJob("*/1 * * * *", async () => {
   let inventory = {
     "blackOvis-standard": "n/a",
     "blackOvis-deluxe": "n/a",
@@ -196,6 +196,7 @@ schedule.scheduleJob("0 15 * * *", async () => {
     "goHunt-deluxe": "n/a",
     "goHunt-lca-saw": "n/a",
     "lancaster-standard": "n/a",
+    "lancaster-spinex": "n/a",
     "lancaster-deluxe": "n/a",
     "lancaster-x-spot": "n/a",
     "lancaster-x-spot-mini": "n/a",
@@ -233,6 +234,7 @@ schedule.scheduleJob("0 15 * * *", async () => {
     getGoHuntInventory(38027175559362, 6187186979010), //lca saw
     getLancasterInventory("modsaw-standard-arrow-saw-kit"),
     getLancasterInventory("modsaw-deluxe-arrow-saw-kit"),
+    getLancasterInventory("modsaw-spinex-arrow-spinner"),
     getLancasterInventory("x-spot-pro-arrow-saw"),
     getLancasterInventory("x-spot-mini-arrow-saw"),
     getLancasterInventory("last-chance-revolution-arrow-saw"),
@@ -271,33 +273,34 @@ schedule.scheduleJob("0 15 * * *", async () => {
 
       inventory["lancaster-standard"] = values[7].value;
       inventory["lancaster-deluxe"] = values[8].value;
-      inventory["lancaster-x-spot"] = values[9].value;
-      inventory["lancaster-x-spot-mini"] = values[10].value;
-      inventory["lancaster-lca-saw"] = values[11].value;
-      inventory["lancaster-carbon-express"] = values[12].value;
-      inventory["lancaster-lca-ez-green"] = values[13].value;
-      inventory["lancaster-avalon-spinner"] = values[14].value;
-      inventory["lancaster-pine-ridge-spinner"] = values[15].value;
-      inventory["lancaster-lca-spin-square"] = values[16].value;
-      inventory["lancaster-omp-spin-square"] = values[17].value;
-      inventory["lancaster-g5-square"] = values[18].value;
-      inventory["lancaster-bitz"] = values[19].value;
-      inventory["lancaster-lca-scale"] = values[20].value;
+      inventory["lancaster-spinex"] = values[9].value;
+      inventory["lancaster-x-spot"] = values[10].value;
+      inventory["lancaster-x-spot-mini"] = values[11].value;
+      inventory["lancaster-lca-saw"] = values[12].value;
+      inventory["lancaster-carbon-express"] = values[13].value;
+      inventory["lancaster-lca-ez-green"] = values[14].value;
+      inventory["lancaster-avalon-spinner"] = values[15].value;
+      inventory["lancaster-pine-ridge-spinner"] = values[16].value;
+      inventory["lancaster-lca-spin-square"] = values[17].value;
+      inventory["lancaster-omp-spin-square"] = values[18].value;
+      inventory["lancaster-g5-square"] = values[19].value;
+      inventory["lancaster-bitz"] = values[20].value;
+      inventory["lancaster-lca-scale"] = values[21].value;
 
-      inventory["podium-carbon-express"] = values[21].value;
-      inventory["podium-lca-saw"] = values[22].value;
-      inventory["podium-square-up"] = values[23].value;
-      inventory["podium-omp-spin-square"] = values[24].value;
-      inventory["podium-g5-square"] = values[25].value;
-      inventory["podium-modsaw-standard"] = values[26].value;
-      inventory["podium-modsaw-deluxe"] = values[27].value;
-      inventory["podium-lca-scale"] = values[28].value;
+      inventory["podium-carbon-express"] = values[22].value;
+      inventory["podium-lca-saw"] = values[23].value;
+      inventory["podium-square-up"] = values[24].value;
+      inventory["podium-omp-spin-square"] = values[25].value;
+      inventory["podium-g5-square"] = values[26].value;
+      inventory["podium-modsaw-standard"] = values[27].value;
+      inventory["podium-modsaw-deluxe"] = values[28].value;
+      inventory["podium-lca-scale"] = values[29].value;
 
-      inventory["mikes-deluxe"] = values[29].value;
-      inventory["mikes-lca-ez-green"] = values[30].value;
-      inventory["mikes-square-up"] = values[31].value;
-      inventory["mikes-pine-ridge"] = values[32].value;
-      inventory["mikes-g5"] = values[33].value;
+      inventory["mikes-deluxe"] = values[30].value;
+      inventory["mikes-lca-ez-green"] = values[31].value;
+      inventory["mikes-square-up"] = values[32].value;
+      inventory["mikes-pine-ridge"] = values[33].value;
+      inventory["mikes-g5"] = values[34].value;
 
       let dateInventoryObj = {
         date: new Date().toLocaleDateString("en-us", {
@@ -318,13 +321,13 @@ schedule.scheduleJob("0 15 * * *", async () => {
       sendEmail();
     });
 
-//   Promise.all([getMidwayInventory(659161)])
-//     .then((values) => {
-//       console.log("value", values[0]);
-//     })
-//     .catch((err) => {
-//       console.log("error", err);
-//     });
+  //   Promise.all([getMidwayInventory(659161)])
+  //     .then((values) => {
+  //       console.log("value", values[0]);
+  //     })
+  //     .catch((err) => {
+  //       console.log("error", err);
+  //     });
 });
 
 process.on("SIGINT", function () {

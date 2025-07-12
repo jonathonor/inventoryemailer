@@ -510,11 +510,7 @@
         "lancaster-lca-spin-square": 0,
         "lancaster-omp-spin-square": 86,
         "lancaster-g5-square": 131,
-        "lancaster-bitz": [
-          0,
-          9,
-          221
-        ],
+        "lancaster-bitz": [0, 9, 221],
         "podium-carbon-express": 60,
         "podium-lca-saw": 4,
         "podium-square-up": 8,
@@ -549,11 +545,7 @@
         "lancaster-lca-spin-square": 0,
         "lancaster-omp-spin-square": 85,
         "lancaster-g5-square": 130,
-        "lancaster-bitz": [
-          0,
-          8,
-          219
-        ],
+        "lancaster-bitz": [0, 8, 219],
         "podium-carbon-express": 57,
         "podium-lca-saw": 4,
         "podium-square-up": 7,
@@ -588,11 +580,7 @@
         "lancaster-lca-spin-square": 0,
         "lancaster-omp-spin-square": 84,
         "lancaster-g5-square": 129,
-        "lancaster-bitz": [
-          0,
-          8,
-          217
-        ],
+        "lancaster-bitz": [0, 8, 217],
         "podium-carbon-express": 56,
         "podium-lca-saw": 4,
         "podium-square-up": 7,
@@ -627,11 +615,7 @@
         "lancaster-lca-spin-square": 0,
         "lancaster-omp-spin-square": 83,
         "lancaster-g5-square": 128,
-        "lancaster-bitz": [
-          0,
-          6,
-          212
-        ],
+        "lancaster-bitz": [0, 6, 212],
         "podium-carbon-express": 54,
         "podium-lca-saw": 4,
         "podium-square-up": 7,
@@ -666,11 +650,7 @@
         "lancaster-lca-spin-square": 0,
         "lancaster-omp-spin-square": 82,
         "lancaster-g5-square": 124,
-        "lancaster-bitz": [
-          421,
-          411,
-          509
-        ],
+        "lancaster-bitz": [421, 411, 509],
         "podium-carbon-express": 54,
         "podium-lca-saw": 4,
         "podium-square-up": 6,
@@ -705,11 +685,7 @@
         "lancaster-lca-spin-square": 0,
         "lancaster-omp-spin-square": 80,
         "lancaster-g5-square": 123,
-        "lancaster-bitz": [
-          296,
-          401,
-          384
-        ],
+        "lancaster-bitz": [296, 401, 384],
         "podium-carbon-express": 54,
         "podium-lca-saw": 4,
         "podium-square-up": 5,
@@ -744,11 +720,7 @@
         "lancaster-lca-spin-square": 0,
         "lancaster-omp-spin-square": 77,
         "lancaster-g5-square": 121,
-        "lancaster-bitz": [
-          293,
-          395,
-          383
-        ],
+        "lancaster-bitz": [293, 395, 383],
         "podium-carbon-express": 51,
         "podium-lca-saw": 4,
         "podium-square-up": 5,
@@ -783,11 +755,7 @@
         "lancaster-lca-spin-square": 0,
         "lancaster-omp-spin-square": 72,
         "lancaster-g5-square": 120,
-        "lancaster-bitz": [
-          290,
-          386,
-          380
-        ],
+        "lancaster-bitz": [290, 386, 380],
         "podium-carbon-express": 49,
         "podium-lca-saw": 4,
         "podium-square-up": 5,
@@ -822,11 +790,7 @@
         "lancaster-lca-spin-square": 0,
         "lancaster-omp-spin-square": 72,
         "lancaster-g5-square": 118,
-        "lancaster-bitz": [
-          282,
-          381,
-          376
-        ],
+        "lancaster-bitz": [282, 381, 376],
         "podium-carbon-express": 46,
         "podium-lca-saw": 3,
         "podium-square-up": 4,
@@ -863,11 +827,7 @@
         "lancaster-lca-spin-square": 0,
         "lancaster-omp-spin-square": 72,
         "lancaster-g5-square": 116,
-        "lancaster-bitz": [
-          279,
-          378,
-          375
-        ],
+        "lancaster-bitz": [279, 378, 375],
         "podium-carbon-express": 45,
         "podium-lca-saw": 3,
         "podium-square-up": 4,
@@ -904,11 +864,7 @@
         "lancaster-lca-spin-square": 0,
         "lancaster-omp-spin-square": 71,
         "lancaster-g5-square": 114,
-        "lancaster-bitz": [
-          273,
-          375,
-          373
-        ],
+        "lancaster-bitz": [273, 375, 373],
         "lancaster-lca-scale": 0,
         "podium-carbon-express": 43,
         "podium-lca-saw": 3,
@@ -947,11 +903,7 @@
         "lancaster-lca-spin-square": 0,
         "lancaster-omp-spin-square": 69,
         "lancaster-g5-square": 112,
-        "lancaster-bitz": [
-          262,
-          369,
-          372
-        ],
+        "lancaster-bitz": [262, 369, 372],
         "lancaster-lca-scale": 0,
         "podium-carbon-express": 41,
         "podium-lca-saw": 3,
@@ -990,11 +942,7 @@
         "lancaster-lca-spin-square": 0,
         "lancaster-omp-spin-square": 69,
         "lancaster-g5-square": 112,
-        "lancaster-bitz": [
-          258,
-          362,
-          365
-        ],
+        "lancaster-bitz": [258, 362, 365],
         "lancaster-lca-scale": 0,
         "podium-carbon-express": 36,
         "podium-lca-saw": 3,
@@ -1033,11 +981,7 @@
         "lancaster-lca-spin-square": 0,
         "lancaster-omp-spin-square": 69,
         "lancaster-g5-square": 111,
-        "lancaster-bitz": [
-          255,
-          354,
-          363
-        ],
+        "lancaster-bitz": [255, 354, 363],
         "lancaster-lca-scale": 0,
         "podium-carbon-express": 35,
         "podium-lca-saw": 3,
@@ -1075,11 +1019,7 @@
         "lancaster-lca-spin-square": 0,
         "lancaster-omp-spin-square": 69,
         "lancaster-g5-square": 110,
-        "lancaster-bitz": [
-          250,
-          349,
-          360
-        ],
+        "lancaster-bitz": [250, 349, 360],
         "lancaster-lca-scale": 0,
         "podium-carbon-express": 33,
         "podium-lca-saw": 3,
@@ -1117,11 +1057,7 @@
         "lancaster-lca-spin-square": 0,
         "lancaster-omp-spin-square": 67,
         "lancaster-g5-square": 108,
-        "lancaster-bitz": [
-          248,
-          343,
-          358
-        ],
+        "lancaster-bitz": [248, 343, 358],
         "lancaster-lca-scale": 0,
         "podium-carbon-express": 31,
         "podium-lca-saw": 3,
@@ -1159,11 +1095,7 @@
         "lancaster-lca-spin-square": 0,
         "lancaster-omp-spin-square": 66,
         "lancaster-g5-square": 107,
-        "lancaster-bitz": [
-          245,
-          341,
-          358
-        ],
+        "lancaster-bitz": [245, 341, 358],
         "lancaster-lca-scale": 0,
         "podium-carbon-express": 31,
         "podium-lca-saw": 3,
@@ -1201,11 +1133,7 @@
         "lancaster-lca-spin-square": 0,
         "lancaster-omp-spin-square": 66,
         "lancaster-g5-square": 103,
-        "lancaster-bitz": [
-          238,
-          338,
-          355
-        ],
+        "lancaster-bitz": [238, 338, 355],
         "lancaster-lca-scale": 0,
         "podium-carbon-express": 29,
         "podium-lca-saw": 3,
@@ -1243,11 +1171,7 @@
         "lancaster-lca-spin-square": 0,
         "lancaster-omp-spin-square": 66,
         "lancaster-g5-square": 100,
-        "lancaster-bitz": [
-          234,
-          313,
-          342
-        ],
+        "lancaster-bitz": [234, 313, 342],
         "lancaster-lca-scale": 0,
         "podium-carbon-express": 27,
         "podium-lca-saw": 3,
@@ -1285,11 +1209,7 @@
         "lancaster-lca-spin-square": 0,
         "lancaster-omp-spin-square": 186,
         "lancaster-g5-square": 178,
-        "lancaster-bitz": [
-          235,
-          307,
-          342
-        ],
+        "lancaster-bitz": [235, 307, 342],
         "lancaster-lca-scale": 0,
         "podium-carbon-express": 25,
         "podium-lca-saw": 3,
@@ -1327,11 +1247,7 @@
         "lancaster-lca-spin-square": 0,
         "lancaster-omp-spin-square": 185,
         "lancaster-g5-square": 175,
-        "lancaster-bitz": [
-          232,
-          306,
-          339
-        ],
+        "lancaster-bitz": [232, 306, 339],
         "lancaster-lca-scale": 0,
         "podium-carbon-express": 25,
         "podium-lca-saw": 3,
@@ -1369,11 +1285,7 @@
         "lancaster-lca-spin-square": 0,
         "lancaster-omp-spin-square": 183,
         "lancaster-g5-square": 172,
-        "lancaster-bitz": [
-          228,
-          305,
-          338
-        ],
+        "lancaster-bitz": [228, 305, 338],
         "lancaster-lca-scale": 0,
         "podium-carbon-express": 23,
         "podium-lca-saw": 3,
@@ -1411,11 +1323,7 @@
         "lancaster-lca-spin-square": 0,
         "lancaster-omp-spin-square": 179,
         "lancaster-g5-square": 171,
-        "lancaster-bitz": [
-          227,
-          305,
-          335
-        ],
+        "lancaster-bitz": [227, 305, 335],
         "lancaster-lca-scale": 0,
         "podium-carbon-express": 21,
         "podium-lca-saw": 3,
@@ -1453,11 +1361,7 @@
         "lancaster-lca-spin-square": 0,
         "lancaster-omp-spin-square": 178,
         "lancaster-g5-square": 171,
-        "lancaster-bitz": [
-          226,
-          304,
-          333
-        ],
+        "lancaster-bitz": [226, 304, 333],
         "lancaster-lca-scale": 0,
         "podium-carbon-express": 21,
         "podium-lca-saw": 3,
@@ -1494,11 +1398,7 @@
         "lancaster-lca-spin-square": 0,
         "lancaster-omp-spin-square": 179,
         "lancaster-g5-square": 169,
-        "lancaster-bitz": [
-          220,
-          302,
-          331
-        ],
+        "lancaster-bitz": [220, 302, 331],
         "lancaster-lca-scale": 0,
         "podium-carbon-express": 19,
         "podium-lca-saw": 3,
@@ -1535,11 +1435,7 @@
         "lancaster-lca-spin-square": 0,
         "lancaster-omp-spin-square": 178,
         "lancaster-g5-square": 165,
-        "lancaster-bitz": [
-          217,
-          299,
-          331
-        ],
+        "lancaster-bitz": [217, 299, 331],
         "lancaster-lca-scale": 0,
         "podium-carbon-express": 18,
         "podium-lca-saw": 3,
@@ -1576,11 +1472,7 @@
         "lancaster-lca-spin-square": 0,
         "lancaster-omp-spin-square": 178,
         "lancaster-g5-square": 164,
-        "lancaster-bitz": [
-          214,
-          298,
-          330
-        ],
+        "lancaster-bitz": [214, 298, 330],
         "lancaster-lca-scale": 0,
         "podium-carbon-express": 16,
         "podium-lca-saw": 3,
@@ -1617,11 +1509,7 @@
         "lancaster-lca-spin-square": 0,
         "lancaster-omp-spin-square": 176,
         "lancaster-g5-square": 161,
-        "lancaster-bitz": [
-          207,
-          296,
-          328
-        ],
+        "lancaster-bitz": [207, 296, 328],
         "lancaster-lca-scale": 0,
         "podium-carbon-express": 11,
         "podium-lca-saw": 3,
@@ -1658,11 +1546,7 @@
         "lancaster-lca-spin-square": 0,
         "lancaster-omp-spin-square": 174,
         "lancaster-g5-square": 158,
-        "lancaster-bitz": [
-          203,
-          292,
-          325
-        ],
+        "lancaster-bitz": [203, 292, 325],
         "lancaster-lca-scale": 0,
         "podium-carbon-express": 10,
         "podium-lca-saw": 3,
@@ -1699,11 +1583,7 @@
         "lancaster-lca-spin-square": 0,
         "lancaster-omp-spin-square": 174,
         "lancaster-g5-square": 155,
-        "lancaster-bitz": [
-          203,
-          290,
-          321
-        ],
+        "lancaster-bitz": [203, 290, 321],
         "lancaster-lca-scale": 0,
         "podium-carbon-express": 8,
         "podium-lca-saw": 3,
@@ -1740,11 +1620,7 @@
         "lancaster-lca-spin-square": 0,
         "lancaster-omp-spin-square": 174,
         "lancaster-g5-square": 155,
-        "lancaster-bitz": [
-          201,
-          288,
-          318
-        ],
+        "lancaster-bitz": [201, 288, 318],
         "lancaster-lca-scale": 0,
         "podium-carbon-express": 7,
         "podium-lca-saw": 3,
@@ -1781,11 +1657,7 @@
         "lancaster-lca-spin-square": 0,
         "lancaster-omp-spin-square": 174,
         "lancaster-g5-square": 154,
-        "lancaster-bitz": [
-          199,
-          288,
-          313
-        ],
+        "lancaster-bitz": [199, 288, 313],
         "lancaster-lca-scale": 0,
         "podium-carbon-express": 6,
         "podium-lca-saw": 3,
@@ -1822,11 +1694,7 @@
         "lancaster-lca-spin-square": 0,
         "lancaster-omp-spin-square": 173,
         "lancaster-g5-square": 151,
-        "lancaster-bitz": [
-          196,
-          282,
-          309
-        ],
+        "lancaster-bitz": [196, 282, 309],
         "lancaster-lca-scale": 0,
         "podium-carbon-express": 5,
         "podium-lca-saw": 3,
@@ -1863,11 +1731,7 @@
         "lancaster-lca-spin-square": 47,
         "lancaster-omp-spin-square": 172,
         "lancaster-g5-square": 151,
-        "lancaster-bitz": [
-          192,
-          281,
-          293
-        ],
+        "lancaster-bitz": [192, 281, 293],
         "lancaster-lca-scale": 146,
         "podium-carbon-express": 5,
         "podium-lca-saw": 3,
@@ -1904,11 +1768,7 @@
         "lancaster-lca-spin-square": 44,
         "lancaster-omp-spin-square": 164,
         "lancaster-g5-square": 147,
-        "lancaster-bitz": [
-          183,
-          270,
-          291
-        ],
+        "lancaster-bitz": [183, 270, 291],
         "lancaster-lca-scale": 139,
         "podium-carbon-express": 5,
         "podium-lca-saw": 3,
@@ -1945,11 +1805,7 @@
         "lancaster-lca-spin-square": 42,
         "lancaster-omp-spin-square": 163,
         "lancaster-g5-square": 146,
-        "lancaster-bitz": [
-          179,
-          267,
-          289
-        ],
+        "lancaster-bitz": [179, 267, 289],
         "lancaster-lca-scale": 135,
         "podium-carbon-express": 3,
         "podium-lca-saw": 3,
@@ -1986,11 +1842,7 @@
         "lancaster-lca-spin-square": 41,
         "lancaster-omp-spin-square": 162,
         "lancaster-g5-square": 142,
-        "lancaster-bitz": [
-          173,
-          265,
-          287
-        ],
+        "lancaster-bitz": [173, 265, 287],
         "lancaster-lca-scale": 131,
         "podium-carbon-express": 1,
         "podium-lca-saw": 3,
@@ -2027,11 +1879,7 @@
         "lancaster-lca-spin-square": 40,
         "lancaster-omp-spin-square": 160,
         "lancaster-g5-square": 141,
-        "lancaster-bitz": [
-          171,
-          260,
-          286
-        ],
+        "lancaster-bitz": [171, 260, 286],
         "lancaster-lca-scale": 130,
         "podium-carbon-express": 1,
         "podium-lca-saw": 3,
@@ -2068,11 +1916,7 @@
         "lancaster-lca-spin-square": 37,
         "lancaster-omp-spin-square": 159,
         "lancaster-g5-square": 140,
-        "lancaster-bitz": [
-          164,
-          256,
-          279
-        ],
+        "lancaster-bitz": [164, 256, 279],
         "lancaster-lca-scale": 120,
         "podium-lca-saw": 3,
         "podium-omp-spin-square": 62,
@@ -2108,11 +1952,7 @@
         "lancaster-lca-spin-square": 35,
         "lancaster-omp-spin-square": 158,
         "lancaster-g5-square": 140,
-        "lancaster-bitz": [
-          161,
-          253,
-          276
-        ],
+        "lancaster-bitz": [161, 253, 276],
         "lancaster-lca-scale": 118,
         "podium-lca-saw": 3,
         "podium-omp-spin-square": 62,
@@ -2148,11 +1988,7 @@
         "lancaster-lca-spin-square": 35,
         "lancaster-omp-spin-square": 156,
         "lancaster-g5-square": 138,
-        "lancaster-bitz": [
-          156,
-          250,
-          274
-        ],
+        "lancaster-bitz": [156, 250, 274],
         "lancaster-lca-scale": 116,
         "podium-lca-saw": 3,
         "podium-omp-spin-square": 61,
@@ -2188,11 +2024,7 @@
         "lancaster-lca-spin-square": 35,
         "lancaster-omp-spin-square": 154,
         "lancaster-g5-square": 135,
-        "lancaster-bitz": [
-          154,
-          248,
-          269
-        ],
+        "lancaster-bitz": [154, 248, 269],
         "lancaster-lca-scale": 114,
         "podium-carbon-express": 1,
         "podium-lca-saw": 3,
@@ -2229,11 +2061,7 @@
         "lancaster-lca-spin-square": 35,
         "lancaster-omp-spin-square": 154,
         "lancaster-g5-square": 133,
-        "lancaster-bitz": [
-          148,
-          246,
-          267
-        ],
+        "lancaster-bitz": [148, 246, 267],
         "lancaster-lca-scale": 111,
         "podium-lca-saw": 3,
         "podium-omp-spin-square": 59,
@@ -2269,11 +2097,7 @@
         "lancaster-lca-spin-square": 35,
         "lancaster-omp-spin-square": 153,
         "lancaster-g5-square": 132,
-        "lancaster-bitz": [
-          144,
-          241,
-          262
-        ],
+        "lancaster-bitz": [144, 241, 262],
         "lancaster-lca-scale": 109,
         "podium-lca-saw": 3,
         "podium-square-up": 2,
@@ -2310,11 +2134,7 @@
         "lancaster-lca-spin-square": 35,
         "lancaster-omp-spin-square": 153,
         "lancaster-g5-square": 131,
-        "lancaster-bitz": [
-          143,
-          236,
-          260
-        ],
+        "lancaster-bitz": [143, 236, 260],
         "lancaster-lca-scale": 107,
         "podium-lca-saw": 3,
         "podium-square-up": 1,
@@ -2351,11 +2171,7 @@
         "lancaster-lca-spin-square": 35,
         "lancaster-omp-spin-square": 151,
         "lancaster-g5-square": 125,
-        "lancaster-bitz": [
-          141,
-          229,
-          258
-        ],
+        "lancaster-bitz": [141, 229, 258],
         "lancaster-lca-scale": 100,
         "podium-lca-saw": 3,
         "podium-square-up": 1,
@@ -2392,11 +2208,7 @@
         "lancaster-lca-spin-square": 34,
         "lancaster-omp-spin-square": 150,
         "lancaster-g5-square": 125,
-        "lancaster-bitz": [
-          139,
-          226,
-          258
-        ],
+        "lancaster-bitz": [139, 226, 258],
         "lancaster-lca-scale": 97,
         "podium-lca-saw": 3,
         "podium-square-up": 1,
@@ -2433,11 +2245,7 @@
         "lancaster-lca-spin-square": 33,
         "lancaster-omp-spin-square": 149,
         "lancaster-g5-square": 125,
-        "lancaster-bitz": [
-          135,
-          218,
-          248
-        ],
+        "lancaster-bitz": [135, 218, 248],
         "lancaster-lca-scale": 93,
         "podium-lca-saw": 2,
         "podium-square-up": 1,
@@ -2475,11 +2283,7 @@
         "lancaster-lca-spin-square": 33,
         "lancaster-omp-spin-square": 147,
         "lancaster-g5-square": 123,
-        "lancaster-bitz": [
-          131,
-          213,
-          247
-        ],
+        "lancaster-bitz": [131, 213, 247],
         "lancaster-lca-scale": 91,
         "podium-lca-saw": 2,
         "podium-square-up": 1,
@@ -2517,11 +2321,7 @@
         "lancaster-lca-spin-square": 32,
         "lancaster-omp-spin-square": 146,
         "lancaster-g5-square": 121,
-        "lancaster-bitz": [
-          126,
-          209,
-          241
-        ],
+        "lancaster-bitz": [126, 209, 241],
         "lancaster-lca-scale": 87,
         "podium-lca-saw": 2,
         "podium-square-up": 1,
@@ -2559,11 +2359,7 @@
         "lancaster-lca-spin-square": 31,
         "lancaster-omp-spin-square": 144,
         "lancaster-g5-square": 159,
-        "lancaster-bitz": [
-          121,
-          205,
-          240
-        ],
+        "lancaster-bitz": [121, 205, 240],
         "lancaster-lca-scale": 83,
         "podium-lca-saw": 2,
         "podium-square-up": 1,
@@ -2601,11 +2397,7 @@
         "lancaster-lca-spin-square": 31,
         "lancaster-omp-spin-square": 143,
         "lancaster-g5-square": 158,
-        "lancaster-bitz": [
-          118,
-          200,
-          236
-        ],
+        "lancaster-bitz": [118, 200, 236],
         "lancaster-lca-scale": 81,
         "podium-lca-saw": 1,
         "podium-square-up": 1,
@@ -2643,11 +2435,7 @@
         "lancaster-lca-spin-square": 31,
         "lancaster-omp-spin-square": 143,
         "lancaster-g5-square": 158,
-        "lancaster-bitz": [
-          113,
-          193,
-          235
-        ],
+        "lancaster-bitz": [113, 193, 235],
         "lancaster-lca-scale": 78,
         "podium-lca-saw": 1,
         "podium-square-up": 1,
@@ -2685,11 +2473,7 @@
         "lancaster-lca-spin-square": 29,
         "lancaster-omp-spin-square": 140,
         "lancaster-g5-square": 156,
-        "lancaster-bitz": [
-          112,
-          138,
-          133
-        ],
+        "lancaster-bitz": [112, 138, 133],
         "lancaster-lca-scale": 73,
         "podium-lca-saw": 1,
         "podium-square-up": 1,
@@ -2727,11 +2511,7 @@
         "lancaster-lca-spin-square": 29,
         "lancaster-omp-spin-square": 139,
         "lancaster-g5-square": 154,
-        "lancaster-bitz": [
-          109,
-          136,
-          127
-        ],
+        "lancaster-bitz": [109, 136, 127],
         "lancaster-lca-scale": 71,
         "podium-carbon-express": 3,
         "podium-lca-saw": 1,
@@ -2770,11 +2550,7 @@
         "lancaster-lca-spin-square": 27,
         "lancaster-omp-spin-square": 138,
         "lancaster-g5-square": 152,
-        "lancaster-bitz": [
-          98,
-          132,
-          124
-        ],
+        "lancaster-bitz": [98, 132, 124],
         "lancaster-lca-scale": 68,
         "podium-lca-saw": 1,
         "podium-omp-spin-square": 52,
@@ -2811,11 +2587,7 @@
         "lancaster-lca-spin-square": 26,
         "lancaster-omp-spin-square": 136,
         "lancaster-g5-square": 150,
-        "lancaster-bitz": [
-          94,
-          132,
-          124
-        ],
+        "lancaster-bitz": [94, 132, 124],
         "lancaster-lca-scale": 61,
         "podium-lca-saw": 1,
         "podium-omp-spin-square": 52,
@@ -2852,11 +2624,7 @@
         "lancaster-lca-spin-square": 26,
         "lancaster-omp-spin-square": 134,
         "lancaster-g5-square": 147,
-        "lancaster-bitz": [
-          89,
-          126,
-          119
-        ],
+        "lancaster-bitz": [89, 126, 119],
         "lancaster-lca-scale": 53,
         "podium-lca-saw": 1,
         "podium-omp-spin-square": 51,
@@ -2893,11 +2661,7 @@
         "lancaster-lca-spin-square": 24,
         "lancaster-omp-spin-square": 134,
         "lancaster-g5-square": 147,
-        "lancaster-bitz": [
-          88,
-          124,
-          119
-        ],
+        "lancaster-bitz": [88, 124, 119],
         "lancaster-lca-scale": 50,
         "podium-lca-saw": 1,
         "podium-omp-spin-square": 50,
@@ -2934,11 +2698,7 @@
         "lancaster-lca-spin-square": 24,
         "lancaster-omp-spin-square": 131,
         "lancaster-g5-square": 144,
-        "lancaster-bitz": [
-          87,
-          120,
-          119
-        ],
+        "lancaster-bitz": [87, 120, 119],
         "lancaster-lca-scale": 49,
         "podium-lca-saw": 1,
         "podium-omp-spin-square": 50,
@@ -2975,11 +2735,7 @@
         "lancaster-lca-spin-square": 24,
         "lancaster-omp-spin-square": 130,
         "lancaster-g5-square": 142,
-        "lancaster-bitz": [
-          85,
-          117,
-          119
-        ],
+        "lancaster-bitz": [85, 117, 119],
         "lancaster-lca-scale": 47,
         "podium-lca-saw": 1,
         "podium-omp-spin-square": 50,
@@ -3016,11 +2772,7 @@
         "lancaster-lca-spin-square": 23,
         "lancaster-omp-spin-square": 129,
         "lancaster-g5-square": 142,
-        "lancaster-bitz": [
-          80,
-          113,
-          116
-        ],
+        "lancaster-bitz": [80, 113, 116],
         "lancaster-lca-scale": 45,
         "podium-lca-saw": 1,
         "podium-omp-spin-square": 49,
@@ -3057,11 +2809,7 @@
         "lancaster-lca-spin-square": 23,
         "lancaster-omp-spin-square": 129,
         "lancaster-g5-square": 140,
-        "lancaster-bitz": [
-          69,
-          104,
-          110
-        ],
+        "lancaster-bitz": [69, 104, 110],
         "lancaster-lca-scale": 42,
         "podium-lca-saw": 1,
         "podium-omp-spin-square": 49,
@@ -3098,11 +2846,7 @@
         "lancaster-lca-spin-square": 22,
         "lancaster-omp-spin-square": 129,
         "lancaster-g5-square": 138,
-        "lancaster-bitz": [
-          182,
-          98,
-          218
-        ],
+        "lancaster-bitz": [182, 98, 218],
         "lancaster-lca-scale": 37,
         "podium-lca-saw": 1,
         "podium-omp-spin-square": 47,
@@ -3139,11 +2883,7 @@
         "lancaster-lca-spin-square": 22,
         "lancaster-omp-spin-square": 129,
         "lancaster-g5-square": 137,
-        "lancaster-bitz": [
-          179,
-          92,
-          215
-        ],
+        "lancaster-bitz": [179, 92, 215],
         "lancaster-lca-scale": 36,
         "podium-lca-saw": 1,
         "podium-omp-spin-square": 47,
@@ -3180,11 +2920,7 @@
         "lancaster-lca-spin-square": 21,
         "lancaster-omp-spin-square": 129,
         "lancaster-g5-square": 137,
-        "lancaster-bitz": [
-          177,
-          86,
-          211
-        ],
+        "lancaster-bitz": [177, 86, 211],
         "lancaster-lca-scale": 35,
         "podium-lca-saw": 1,
         "podium-omp-spin-square": 47,
@@ -3221,11 +2957,7 @@
         "lancaster-lca-spin-square": 18,
         "lancaster-omp-spin-square": 129,
         "lancaster-g5-square": 136,
-        "lancaster-bitz": [
-          175,
-          78,
-          205
-        ],
+        "lancaster-bitz": [175, 78, 205],
         "lancaster-lca-scale": 32,
         "podium-lca-saw": 1,
         "podium-omp-spin-square": 47,
@@ -3262,11 +2994,7 @@
         "lancaster-lca-spin-square": 16,
         "lancaster-omp-spin-square": 127,
         "lancaster-g5-square": 133,
-        "lancaster-bitz": [
-          169,
-          73,
-          201
-        ],
+        "lancaster-bitz": [169, 73, 201],
         "lancaster-lca-scale": 30,
         "podium-lca-saw": 1,
         "podium-omp-spin-square": 47,
@@ -3303,11 +3031,7 @@
         "lancaster-lca-spin-square": 15,
         "lancaster-omp-spin-square": 126,
         "lancaster-g5-square": 133,
-        "lancaster-bitz": [
-          262,
-          186,
-          376
-        ],
+        "lancaster-bitz": [262, 186, 376],
         "lancaster-lca-scale": 27,
         "podium-lca-saw": 1,
         "podium-omp-spin-square": 47,
@@ -3344,11 +3068,7 @@
         "lancaster-lca-spin-square": 14,
         "lancaster-omp-spin-square": 126,
         "lancaster-g5-square": 130,
-        "lancaster-bitz": [
-          260,
-          179,
-          371
-        ],
+        "lancaster-bitz": [260, 179, 371],
         "lancaster-lca-scale": 25,
         "podium-lca-saw": 1,
         "podium-omp-spin-square": 46,
@@ -3385,11 +3105,7 @@
         "lancaster-lca-spin-square": 13,
         "lancaster-omp-spin-square": 126,
         "lancaster-g5-square": 128,
-        "lancaster-bitz": [
-          259,
-          172,
-          368
-        ],
+        "lancaster-bitz": [259, 172, 368],
         "lancaster-lca-scale": 23,
         "podium-lca-saw": 1,
         "podium-omp-spin-square": 45,
@@ -3426,11 +3142,7 @@
         "lancaster-lca-spin-square": 13,
         "lancaster-omp-spin-square": 126,
         "lancaster-g5-square": 125,
-        "lancaster-bitz": [
-          259,
-          168,
-          365
-        ],
+        "lancaster-bitz": [259, 168, 365],
         "lancaster-lca-scale": 23,
         "podium-lca-saw": 1,
         "podium-omp-spin-square": 44,
@@ -3467,11 +3179,7 @@
         "lancaster-lca-spin-square": 12,
         "lancaster-omp-spin-square": 124,
         "lancaster-g5-square": 123,
-        "lancaster-bitz": [
-          258,
-          165,
-          364
-        ],
+        "lancaster-bitz": [258, 165, 364],
         "lancaster-lca-scale": 21,
         "podium-lca-saw": 1,
         "podium-omp-spin-square": 43,
@@ -3508,11 +3216,7 @@
         "lancaster-lca-spin-square": 12,
         "lancaster-omp-spin-square": 123,
         "lancaster-g5-square": 120,
-        "lancaster-bitz": [
-          255,
-          165,
-          360
-        ],
+        "lancaster-bitz": [255, 165, 360],
         "lancaster-lca-scale": 15,
         "podium-lca-saw": 1,
         "podium-omp-spin-square": 38,
@@ -3548,11 +3252,7 @@
         "lancaster-lca-spin-square": 10,
         "lancaster-omp-spin-square": 123,
         "lancaster-g5-square": 117,
-        "lancaster-bitz": [
-          246,
-          163,
-          356
-        ],
+        "lancaster-bitz": [246, 163, 356],
         "lancaster-lca-scale": 12,
         "podium-lca-saw": 1,
         "podium-omp-spin-square": 38,
@@ -3566,7 +3266,39 @@
         "mikes-g5": 98
       }
     },
-    {     
+    {
+      "date": "7/10/2025",
+      "data": {
+        "blackOvis-standard": 21,
+        "blackOvis-deluxe": 22,
+        "3Rivers-standard": 27,
+        "3Rivers-deluxe": 37,
+        "goHunt-standard": 10,
+        "goHunt-deluxe": 15,
+        "goHunt-lca-saw": 6,
+        "lancaster-standard": 40,
+        "lancaster-deluxe": 26,
+        "lancaster-x-spot": 97,
+        "lancaster-x-spot-mini": 76,
+        "lancaster-lca-saw": 8,
+        "lancaster-carbon-express": 44,
+        "lancaster-lca-ez-green": 111,
+        "lancaster-avalon-spinner": 4,
+        "lancaster-pine-ridge-spinner": 89,
+        "lancaster-lca-spin-square": 9,
+        "lancaster-omp-spin-square": 123,
+        "lancaster-g5-square": 115,
+        "lancaster-bitz": [236, 151, 347],
+        "lancaster-lca-scale": 2,
+        "podium-modsaw-standard": 32,
+        "mikes-deluxe": 6,
+        "mikes-lca-ez-green": 6,
+        "mikes-square-up": 0,
+        "mikes-pine-ridge": 2,
+        "mikes-g5": 98
+      }
+    },
+    {
       "date": "7/11/2025",
       "data": {
         "blackOvis-standard": 21,
@@ -3588,11 +3320,7 @@
         "lancaster-lca-spin-square": 8,
         "lancaster-omp-spin-square": 121,
         "lancaster-g5-square": 193,
-        "lancaster-bitz": [
-          232,
-          144,
-          343
-        ],
+        "lancaster-bitz": [232, 144, 343],
         "lancaster-lca-scale": 0,
         "podium-lca-saw": 1,
         "podium-omp-spin-square": 36,
