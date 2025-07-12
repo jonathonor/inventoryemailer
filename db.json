@@ -3565,6 +3565,43 @@
         "mikes-pine-ridge": 1,
         "mikes-g5": 98
       }
+    },
+    {     
+      "date": "7/11/2025",
+      "data": {
+        "blackOvis-standard": 21,
+        "blackOvis-deluxe": 21,
+        "3Rivers-standard": 27,
+        "3Rivers-deluxe": 37,
+        "goHunt-standard": 9,
+        "goHunt-deluxe": 15,
+        "goHunt-lca-saw": 6,
+        "lancaster-standard": 38,
+        "lancaster-deluxe": 50,
+        "lancaster-x-spot": 97,
+        "lancaster-x-spot-mini": 76,
+        "lancaster-lca-saw": 8,
+        "lancaster-carbon-express": 43,
+        "lancaster-lca-ez-green": 105,
+        "lancaster-avalon-spinner": 3,
+        "lancaster-pine-ridge-spinner": 88,
+        "lancaster-lca-spin-square": 8,
+        "lancaster-omp-spin-square": 121,
+        "lancaster-g5-square": 193,
+        "lancaster-bitz": [
+          232,
+          144,
+          343
+        ],
+        "lancaster-lca-scale": 0,
+        "podium-lca-saw": 1,
+        "podium-omp-spin-square": 36,
+        "mikes-deluxe": 5,
+        "mikes-lca-ez-green": 5,
+        "mikes-square-up": 0,
+        "mikes-pine-ridge": 2,
+        "mikes-g5": 98
+      }
     }
   ]
 }

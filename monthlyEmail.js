@@ -1,4 +1,6 @@
 import nodemailer from "nodemailer";
+import dotenv from 'dotenv';
+dotenv.config();
 
 function filterLastMonth(objects) {
   const today = new Date();
@@ -83,8 +85,8 @@ rest.forEach(name => {
     host: "smtp.titan.email",
     port: 587,
     auth: {
-      user: process.env.titanEmail,
-      pass: "/qb+am'Pe^h(Ff@",
+      user: process.env.TITAN_EMAIL,
+      pass: process.env.TITAN_PASSWORD,
     },
   });
 
@@ -122,6 +124,7 @@ rest.forEach(name => {
   const info = await transporter.sendMail({
     from: '"Monthly Recap 🏹" <info@modsaw.com>', // sender address
     to: "admin@modsaw.com", // list of receivers
+    bcc: "chrsgrhmgrhm@gmail.com", //bcc to chris so he can see if this is working
     subject: "Monthly Inventory Data", // Subject line
     html: html, // html body
   });
@@ -195,8 +198,3 @@ function calculateChange(data, valueKey, timeKey) {
   }
   return changes;
 }
-
-
-
-
-
