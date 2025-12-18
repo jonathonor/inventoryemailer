@@ -77,51 +77,51 @@ export const getPodiumItemData = (db) => {
       inventory: latest["podium-modsaw-deluxe"] || 0,
       change: latest["podium-modsaw-deluxe"] - previous["podium-modsaw-deluxe"],
     },
-    {
-      image: "https://lancasterarchery.com/cdn/shop/files/1031501.jpg",
-      id: "podium-carbon-express",
-      name: "Carbon Express",
-      inventory: latest["podium-carbon-express"],
-      change:
-        latest["podium-carbon-express"] - previous["podium-carbon-express"],
-    },
-    {
-      image: "https://lancasterarchery.com/cdn/shop/files/6910067.jpg",
-      id: "podium-lca-saw",
-      name: "LCA Saw",
-      inventory: latest["podium-lca-saw"],
-      change: latest["podium-lca-saw"] - previous["podium-lca-saw"],
-    },
-    {
-      image:
-        "https://lancasterarchery.com/cdn/shop/files/1038795_1000x.jpg?v=1713971032",
-      id: "podium-lca-scale",
-      name: "LCA Scale",
-      inventory: latest["podium-lca-scale"],
-      change: latest["podium-lca-scale"] - previous["podium-lca-scale"],
-    },
-    {
-      image: "https://lancasterarchery.com/cdn/shop/files/1039419.jpg",
-      id: "podium-square-up",
-      name: "Square Up",
-      inventory: latest["podium-square-up"],
-      change: latest["podium-square-up"] - previous["podium-square-up"],
-    },
-    {
-      image: "https://lancasterarchery.com/cdn/shop/files/1034010.jpg",
-      id: "podium-omp-spin-square",
-      name: "OMP Spinner",
-      inventory: latest["podium-omp-spin-square"],
-      change:
-        latest["podium-omp-spin-square"] - previous["podium-omp-spin-square"],
-    },
-    {
-      image: "https://lancasterarchery.com/cdn/shop/files/2240177.jpg",
-      id: "podium-g5-square",
-      name: "G5 ASD",
-      inventory: latest["podium-g5-square"],
-      change: latest["podium-g5-square"] - previous["podium-g5-square"],
-    },
+    // {
+    //   image: "https://lancasterarchery.com/cdn/shop/files/1031501.jpg",
+    //   id: "podium-carbon-express",
+    //   name: "Carbon Express",
+    //   inventory: latest["podium-carbon-express"],
+    //   change:
+    //     latest["podium-carbon-express"] - previous["podium-carbon-express"],
+    // },
+    // {
+    //   image: "https://lancasterarchery.com/cdn/shop/files/6910067.jpg",
+    //   id: "podium-lca-saw",
+    //   name: "LCA Saw",
+    //   inventory: latest["podium-lca-saw"],
+    //   change: latest["podium-lca-saw"] - previous["podium-lca-saw"],
+    // },
+    // {
+    //   image:
+    //     "https://lancasterarchery.com/cdn/shop/files/1038795_1000x.jpg?v=1713971032",
+    //   id: "podium-lca-scale",
+    //   name: "LCA Scale",
+    //   inventory: latest["podium-lca-scale"],
+    //   change: latest["podium-lca-scale"] - previous["podium-lca-scale"],
+    // },
+    // {
+    //   image: "https://lancasterarchery.com/cdn/shop/files/1039419.jpg",
+    //   id: "podium-square-up",
+    //   name: "Square Up",
+    //   inventory: latest["podium-square-up"],
+    //   change: latest["podium-square-up"] - previous["podium-square-up"],
+    // },
+    // {
+    //   image: "https://lancasterarchery.com/cdn/shop/files/1034010.jpg",
+    //   id: "podium-omp-spin-square",
+    //   name: "OMP Spinner",
+    //   inventory: latest["podium-omp-spin-square"],
+    //   change:
+    //     latest["podium-omp-spin-square"] - previous["podium-omp-spin-square"],
+    // },
+    // {
+    //   image: "https://lancasterarchery.com/cdn/shop/files/2240177.jpg",
+    //   id: "podium-g5-square",
+    //   name: "G5 ASD",
+    //   inventory: latest["podium-g5-square"],
+    //   change: latest["podium-g5-square"] - previous["podium-g5-square"],
+    // },
     //     {
     //   image: "https://lancasterarchery.com/cdn/shop/files/6910007_2023.jpg",
     //   id: "podium-lca-ez-green",

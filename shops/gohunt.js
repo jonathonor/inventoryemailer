@@ -38,7 +38,7 @@ export const getGoHuntInventory = async (id, product_id) => {
     let parsed = ret.match(numberRegexG)[0];
     console.log("parsed", parsed);
     let remainingQ = parsed ? parseInt(parsed) : 0;
-    console.log("remain", remainingQ)
+    console.log("remain", remainingQ);
     return remainingQ;
   }
   return res;
@@ -64,12 +64,12 @@ export const getGoHuntItemData = (db) => {
       inventory: latest["goHunt-deluxe"],
       change: latest["goHunt-deluxe"] - previous["goHunt-deluxe"],
     },
-    {
-      image: "https://lancasterarchery.com/cdn/shop/files/6910067.jpg",
-      id: "goHunt-lca-saw",
-      name: "LCA Saw",
-      inventory: latest["goHunt-lca-saw"],
-      change: latest["goHunt-lca-saw"] - previous["goHunt-lca-saw"],
-    },
+    // {
+    //   image: "https://lancasterarchery.com/cdn/shop/files/6910067.jpg",
+    //   id: "goHunt-lca-saw",
+    //   name: "LCA Saw",
+    //   inventory: latest["goHunt-lca-saw"],
+    //   change: latest["goHunt-lca-saw"] - previous["goHunt-lca-saw"],
+    // },
   ];
 };
