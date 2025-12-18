@@ -16,18 +16,14 @@ const file = join(__dirname, "db.json");
 const defaultData = { inventory: [] };
 const db = await JSONFilePreset("db.json", defaultData);
 
-import { get3RiversInventory, get3RiversItemData } from "./shops/3rivers.js";
-import {
-  getBlackOvisInventory,
-  getBlackOvisItemData,
-} from "./shops/blackovis.js";
+import { get3RiversInventory } from "./shops/3rivers.js";
 import { getGoHuntInventory, getGoHuntItemData } from "./shops/gohunt.js";
 import {
   getLancasterInventory,
   getLancasterItemData,
 } from "./shops/lancaster.js";
 // import { getMidwayInventory, getMidwayItemData } from "./shops/midway.js";
-import { getMikesInventory, getMikesItemData } from "./shops/mikes.js";
+import { getMikesInventory } from "./shops/mikes.js";
 import { getPodiumInventory, getPodiumItemData } from "./shops/podium.js";
 import { sendMonthlyEmail } from "./monthlyEmail.js";
 
@@ -79,17 +75,22 @@ let getRow = (item) => {
         <span style="color: #979cb0;
           font-weight: 700;
           font-size: 20px;
-          text-align: right;">${item.inventory}
+          text-align: right;">${
+            item.inventory === "undefined" || Number.isNaN(item.inventory)
+              ? 0
+              : item.inventory
+          }
           <span style="color: ${isNegative(item.change) ? "red" : "green"};
           opacity: .8;
           font-weight: 600;
           font-size: 10px;
           margin-left: 3px;">
-          ${isNegative(item.change) ? "" : "+"}${item.change}
+          ${isNegative(item.change) ? "" : "+"}${
+      Number.isNaN(item.change) ? 0 : item.change
+    }
           </span>
         </span>`;
   } else {
-    console.log(item.change);
     return `<span style="color: #979cb0;
       font-weight: 600;
       font-size: 18px;
@@ -98,14 +99,18 @@ let getRow = (item) => {
         <span style="color: #979cb0;
           font-weight: 700;
           font-size: 20px;
-          text-align: right;">${item.inventory}
+          text-align: right;">${
+            item.inventory === "undefined" || Number.isNaN(item.inventory)
+              ? 0
+              : item.inventory
+          }
             ${item.change.map((i) => {
               return `<span style="color: ${isNegative(i) ? "red" : "green"};
                   opacity: .8;
                   font-weight: 600;
                   font-size: 10px;
                   margin-left: 3px;">
-                  ${isNegative(i) ? "" : "+"}${i}
+                  ${isNegative(i) ? "" : "+"}${Number.isNaN(i) ? 0 : i}
                   </span>
                 `;
             })}</span>`;
@@ -113,6 +118,9 @@ let getRow = (item) => {
 };
 
 let isNegative = (number) => {
+  if (Number.isNaN(number)) {
+    return true;
+  }
   if (number < 1) {
     return true;
   } else {
@@ -157,11 +165,8 @@ let sendEmail = async () => {
         transform: translateY(-2px);">Inventory</span></h1>
   </header>
   ${getSectionHtml("goHunt", getGoHuntItemData(db))}
-  ${getSectionHtml("Black Ovis", getBlackOvisItemData(db))}
   ${getSectionHtml("Lancaster", getLancasterItemData(db))}
-  ${getSectionHtml("3Rivers", get3RiversItemData(db))}
   ${getSectionHtml("Podium", getPodiumItemData(db))}
-  ${getSectionHtml("Mikes", getMikesItemData(db))}
 
 </div>`;
 
@@ -186,7 +191,7 @@ let sendEmail = async () => {
 schedule.scheduleJob("0 15 1 * *", async () => {
   sendMonthlyEmail(db.data.inventory);
 });
-schedule.scheduleJob("*/1 * * * *", async () => {
+schedule.scheduleJob("0 15 * * *", async () => {
   let inventory = {
     "blackOvis-standard": "n/a",
     "blackOvis-deluxe": "n/a",
@@ -225,8 +230,8 @@ schedule.scheduleJob("*/1 * * * *", async () => {
     "mikes-g5": "n/a",
   };
   Promise.allSettled([
-    getBlackOvisInventory("MODS0002-STD", db), //standard
-    getBlackOvisInventory("MODS0001-DLX", db), //deluxe
+    // getBlackOvisInventory("MODS0002-STD", db), //standard
+    // getBlackOvisInventory("MODS0001-DLX", db), //deluxe
     get3RiversInventory(898000), //standard
     get3RiversInventory(898001), //deluxe
     getGoHuntInventory(44680798601410, 7977543958722), //standard
@@ -262,45 +267,45 @@ schedule.scheduleJob("*/1 * * * *", async () => {
     getMikesInventory(10039), // g5
   ])
     .then((values) => {
-      inventory["blackOvis-standard"] = values[0].value;
-      inventory["blackOvis-deluxe"] = values[1].value;
-      inventory["3Rivers-standard"] = values[2].value;
-      inventory["3Rivers-deluxe"] = values[3].value;
+      // inventory["blackOvis-standard"] = values[0].value;
+      // inventory["blackOvis-deluxe"] = values[1].value;
+      inventory["3Rivers-standard"] = values[0].value;
+      inventory["3Rivers-deluxe"] = values[1].value;
 
-      inventory["goHunt-standard"] = values[4].value;
-      inventory["goHunt-deluxe"] = values[5].value;
-      inventory["goHunt-lca-saw"] = values[6].value;
+      inventory["goHunt-standard"] = values[2].value;
+      inventory["goHunt-deluxe"] = values[3].value;
+      inventory["goHunt-lca-saw"] = values[4].value;
 
-      inventory["lancaster-standard"] = values[7].value;
-      inventory["lancaster-deluxe"] = values[8].value;
-      inventory["lancaster-spinex"] = values[9].value;
-      inventory["lancaster-x-spot"] = values[10].value;
-      inventory["lancaster-x-spot-mini"] = values[11].value;
-      inventory["lancaster-lca-saw"] = values[12].value;
-      inventory["lancaster-carbon-express"] = values[13].value;
-      inventory["lancaster-lca-ez-green"] = values[14].value;
-      inventory["lancaster-avalon-spinner"] = values[15].value;
-      inventory["lancaster-pine-ridge-spinner"] = values[16].value;
-      inventory["lancaster-lca-spin-square"] = values[17].value;
-      inventory["lancaster-omp-spin-square"] = values[18].value;
-      inventory["lancaster-g5-square"] = values[19].value;
-      inventory["lancaster-bitz"] = values[20].value;
-      inventory["lancaster-lca-scale"] = values[21].value;
+      inventory["lancaster-standard"] = values[5].value;
+      inventory["lancaster-deluxe"] = values[6].value;
+      inventory["lancaster-spinex"] = values[7].value;
+      inventory["lancaster-x-spot"] = values[8].value;
+      inventory["lancaster-x-spot-mini"] = values[9].value;
+      inventory["lancaster-lca-saw"] = values[10].value;
+      inventory["lancaster-carbon-express"] = values[11].value;
+      inventory["lancaster-lca-ez-green"] = values[12].value;
+      inventory["lancaster-avalon-spinner"] = values[13].value;
+      inventory["lancaster-pine-ridge-spinner"] = values[14].value;
+      inventory["lancaster-lca-spin-square"] = values[15].value;
+      inventory["lancaster-omp-spin-square"] = values[16].value;
+      inventory["lancaster-g5-square"] = values[17].value;
+      inventory["lancaster-bitz"] = values[18].value;
+      inventory["lancaster-lca-scale"] = values[19].value;
 
-      inventory["podium-carbon-express"] = values[22].value;
-      inventory["podium-lca-saw"] = values[23].value;
-      inventory["podium-square-up"] = values[24].value;
-      inventory["podium-omp-spin-square"] = values[25].value;
-      inventory["podium-g5-square"] = values[26].value;
-      inventory["podium-modsaw-standard"] = values[27].value;
-      inventory["podium-modsaw-deluxe"] = values[28].value;
-      inventory["podium-lca-scale"] = values[29].value;
+      inventory["podium-carbon-express"] = values[20].value;
+      inventory["podium-lca-saw"] = values[21].value;
+      inventory["podium-square-up"] = values[22].value;
+      inventory["podium-omp-spin-square"] = values[23].value;
+      inventory["podium-g5-square"] = values[24].value;
+      inventory["podium-modsaw-standard"] = values[25].value;
+      inventory["podium-modsaw-deluxe"] = values[26].value;
+      inventory["podium-lca-scale"] = values[27].value;
 
-      inventory["mikes-deluxe"] = values[30].value;
-      inventory["mikes-lca-ez-green"] = values[31].value;
-      inventory["mikes-square-up"] = values[32].value;
-      inventory["mikes-pine-ridge"] = values[33].value;
-      inventory["mikes-g5"] = values[34].value;
+      inventory["mikes-deluxe"] = values[28].value;
+      inventory["mikes-lca-ez-green"] = values[29].value;
+      inventory["mikes-square-up"] = values[30].value;
+      inventory["mikes-pine-ridge"] = values[31].value;
+      inventory["mikes-g5"] = values[32].value;
 
       let dateInventoryObj = {
         date: new Date().toLocaleDateString("en-us", {
