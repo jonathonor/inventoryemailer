@@ -196,7 +196,7 @@ let sendEmail = async () => {
 schedule.scheduleJob("0 15 1 * *", async () => {
   sendMonthlyEmail(db.data.inventory);
 });
-schedule.scheduleJob("*/1 * * * *", async () => {
+schedule.scheduleJob("0 15 * * *", async () => {
   let inventory = {
     "blackOvis-standard": "n/a",
     "blackOvis-deluxe": "n/a",
