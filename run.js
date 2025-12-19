@@ -26,6 +26,10 @@ import {
 import { getMikesInventory } from "./shops/mikes.js";
 import { getPodiumInventory, getPodiumItemData } from "./shops/podium.js";
 import { sendMonthlyEmail } from "./monthlyEmail.js";
+import {
+  getPaperTunerInventory,
+  getPaperTunerItemData,
+} from "./shops/papertuner.js";
 
 db.data = db.data || [];
 
@@ -167,6 +171,7 @@ let sendEmail = async () => {
   ${getSectionHtml("goHunt", getGoHuntItemData(db))}
   ${getSectionHtml("Lancaster", getLancasterItemData(db))}
   ${getSectionHtml("Podium", getPodiumItemData(db))}
+  ${getSectionHtml("PaperTuner", getPaperTunerItemData(db))}
 
 </div>`;
 
@@ -191,7 +196,7 @@ let sendEmail = async () => {
 schedule.scheduleJob("0 15 1 * *", async () => {
   sendMonthlyEmail(db.data.inventory);
 });
-schedule.scheduleJob("0 15 * * *", async () => {
+schedule.scheduleJob("*/1 * * * *", async () => {
   let inventory = {
     "blackOvis-standard": "n/a",
     "blackOvis-deluxe": "n/a",
@@ -223,11 +228,17 @@ schedule.scheduleJob("0 15 * * *", async () => {
     "podium-modsaw-standard": "n/a",
     "podium-modsaw-deluxe": "n/a",
     "podium-lca-scale": "n/a",
+    "podium-papertuner": "n/a",
+    "podium-papertuner-spinner": "n/a",
     "mikes-deluxe": "n/a",
     "mikes-lca-ez-green": "n/a",
     "mikes-square-up": "n/a",
     "mikes-pine-ridge": "n/a",
     "mikes-g5": "n/a",
+    "papertuner-white": "n/a",
+    "papertuner-green": "n/a",
+    "papertuner-orange": "n/a",
+    "papertuner-spinner": "n/a",
   };
   Promise.allSettled([
     // getBlackOvisInventory("MODS0002-STD", db), //standard
@@ -260,15 +271,19 @@ schedule.scheduleJob("0 15 * * *", async () => {
     getPodiumInventory(45107251347631, 8211369459887), // modsaw standard
     getPodiumInventory(45107256098991, 8211369558191), // modsaw deluxe
     getPodiumInventory(44396962250927, 8078142636207), // lca scale
+    getPodiumInventory(44256063226031, 8053009350831), // papertuner
+    getPodiumInventory(45145128730799, 8217747325103), // papertuner spinner
     getMikesInventory(15930), // deluxe
     getMikesInventory(13089), // ez green
     getMikesInventory(16672), // square up
     getMikesInventory(15387), // pine ridge
     getMikesInventory(10039), // g5
+    getPaperTunerInventory(44895826673945, 8039568605465), // papertuner white
+    getPaperTunerInventory(44895826706713, 8039568605465), // papertuner green
+    getPaperTunerInventory(47232677871897, 8039568605465), // papertuner orange
+    getPaperTunerInventory(49915661943065, 9757417210137), // spinner
   ])
     .then((values) => {
-      // inventory["blackOvis-standard"] = values[0].value;
-      // inventory["blackOvis-deluxe"] = values[1].value;
       inventory["3Rivers-standard"] = values[0].value;
       inventory["3Rivers-deluxe"] = values[1].value;
 
@@ -300,12 +315,19 @@ schedule.scheduleJob("0 15 * * *", async () => {
       inventory["podium-modsaw-standard"] = values[25].value;
       inventory["podium-modsaw-deluxe"] = values[26].value;
       inventory["podium-lca-scale"] = values[27].value;
+      inventory["podium-papertuner"] = values[28].value;
+      inventory["podium-papertuner-spinner"] = values[29].value;
 
-      inventory["mikes-deluxe"] = values[28].value;
-      inventory["mikes-lca-ez-green"] = values[29].value;
-      inventory["mikes-square-up"] = values[30].value;
-      inventory["mikes-pine-ridge"] = values[31].value;
-      inventory["mikes-g5"] = values[32].value;
+      inventory["mikes-deluxe"] = values[30].value;
+      inventory["mikes-lca-ez-green"] = values[31].value;
+      inventory["mikes-square-up"] = values[32].value;
+      inventory["mikes-pine-ridge"] = values[33].value;
+      inventory["mikes-g5"] = values[34].value;
+
+      inventory["papertuner-white"] = values[35].value;
+      inventory["papertuner-green"] = values[36].value;
+      inventory["papertuner-orange"] = values[37].value;
+      inventory["papertuner-spinner"] = values[38].value;
 
       let dateInventoryObj = {
         date: new Date().toLocaleDateString("en-us", {

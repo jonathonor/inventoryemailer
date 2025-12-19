@@ -6,6 +6,8 @@
 // getPodiumInventory(45107251347631, 8211369459887) // modsaw standard
 // getPodiumInventory(45107256098991, 8211369558191) // modsaw deluxe
 // getPodiumInventory(44396962250927, 8078142636207) // lca scale
+// getPodiumInventory(44256063226031, 8053009350831) // papertuner
+// getPodiumInventory(45145128730799, 8217747325103) // papertuner spinner
 
 //ez green
 // Draw Board: Draw Board Sold Separately
@@ -76,6 +78,24 @@ export const getPodiumItemData = (db) => {
       name: "modsaw Deluxe",
       inventory: latest["podium-modsaw-deluxe"] || 0,
       change: latest["podium-modsaw-deluxe"] - previous["podium-modsaw-deluxe"],
+    },
+    {
+      image:
+        "https://www.podiumarcher.com/cdn/shop/files/PaperTunerBlackandWhite2048nomagnets_v1_jpg.webp?v=1723221301&width=1200",
+      id: "podium-papertuner",
+      name: "PaperTuner",
+      inventory: latest["podium-papertuner"] || 0,
+      change: latest["podium-papertuner"] - previous["podium-papertuner"],
+    },
+    {
+      image:
+        "https://www.podiumarcher.com/cdn/shop/files/spinner1.webp?v=1747159724&width=1200",
+      id: "podium-papertuner-spinner",
+      name: "PaperTuner Spinner",
+      inventory: latest["podium-papertuner-spinner"] || 0,
+      change:
+        latest["podium-papertuner-spinner"] -
+        previous["podium-papertuner-spinner"],
     },
     // {
     //   image: "https://lancasterarchery.com/cdn/shop/files/1031501.jpg",
